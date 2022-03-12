@@ -15,7 +15,7 @@ sudo apt install php7.4-mysql
 #install mysql
 sudo apt install mysql-server
 sudo mysql
-select user from mysql.user 
+select user from mysql.user; 
 CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON * . * TO 'user'@'localhost';
 FLUSH PRIVILEGES;
