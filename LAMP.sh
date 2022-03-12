@@ -19,7 +19,7 @@ select user from mysql.user;
 CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON * . * TO 'user'@'localhost';
 FLUSH PRIVILEGES;
-create database wordpress 
+create database wordpress; 
 
 #install wordpress
 sudo apt-get install wget
